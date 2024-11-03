@@ -1,0 +1,27 @@
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .todo-item span {
+    cursor: pointer;
+  }
+  
+  .todo-item.completed span {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .todo-item button {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+
+  .todo-item .todo-status-and-text{
+    display: flex;
+    gap: 40px;
+  }
+  

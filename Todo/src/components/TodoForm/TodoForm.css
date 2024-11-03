@@ -1,0 +1,18 @@
+.todo-form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.todo-form input{
+    flex:1;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.todo-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left:10px;
+    cursor: pointer;
+}

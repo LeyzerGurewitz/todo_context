@@ -1,0 +1,12 @@
+.todo-list {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+.todo-list h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.todo-list ul{
+    list-style: none;
+}
